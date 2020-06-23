@@ -1,19 +1,18 @@
 {
-  "name": "iotdev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "trains",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@azure/event-hubs": "^1.0.7",
-    "azure-iot-device": "^1.13.0",
-    "azure-iot-device-mqtt": "^1.12.0",
-    "azure-iothub": "^1.12.0",
-    "dotenv": "^8.2.0",
-    "fs": "0.0.1-security"
+    "azure-iot-device": "^1.16.0",
+    "azure-iot-device-mqtt": "^1.14.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
   }
 }

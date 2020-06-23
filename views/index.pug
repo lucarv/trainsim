@@ -1,0 +1,34 @@
+extends layout
+
+block content
+            .panel.panel-default
+                .panel-heading Trip Selector
+                .panel-body        
+                    form(action='/start', method='post', id='travel')
+                      fieldset
+                        .radio
+                          label
+                            input#1(type='radio', name='trip', value='0')
+                            | STO - GBG
+                        .radio
+                          label
+                            input#2(type='radio', name='trip', value='1')
+                            | STO - UPP
+                        .radio
+                          label
+                            input#3(type='radio', name='trip', value='2')
+                            | STO-OST   
+                        .radio
+                          label
+                            input#4(type='radio', name='trip', value='3')
+                            | LUL-KIR
+                        .radio
+                          label
+                            input#5(type='radio', name='trip', value='4')
+                            | VAX-GBG
+                        .radio
+                          label
+                            input#6(type='radio', name='trip', value='5')
+                            | KNA-MLM
+                        br                                                   
+                        button.btn.btn-space.btn-default(type='submit', form='travel')  start »

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+            .panel.panel-default
+                .panel-heading Cancel Trip
+                .panel-body        
+                    form(action='/stop', method='post', id='travel')
+                      fieldset                                                   
+                        button.btn.btn-space.btn-default(type='submit', form='travel')  stop »
