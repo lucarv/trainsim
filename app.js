@@ -8,10 +8,7 @@ const Client = require('azure-iot-device').Client;
 const Message = require('azure-iot-device').Message;
 var signals = require('./signals.json')
 
-var args = process.argv.slice(2);
-
-
-const connectionString = args[0];
+const connectionString = process.env.CS;
 var parsedConnectionString = connectionString.split(';');
 var deviceId = parsedConnectionString[1].split('=')[1]
 var authType = 'PSK';
