@@ -1,0 +1,1514 @@
+[
+    {
+      "dataPoint": "DP.rLatitude",
+      "type": "REAL",
+      "unit": "°",
+      "min": 0,
+      "max": "90"
+    },
+    {
+      "dataPoint": "DP.rLongitude",
+      "type": "REAL",
+      "unit": "°",
+      "min": 0,
+      "max": "90"
+    },
+    {
+      "dataPoint": "DP_F.iHvacCo2",
+      "type": "INT",
+      "unit": "ppm",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iPressBPCorrFromBCU",
+      "type": "INT",
+      "unit": "kPa",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iPressBPCorrToBCU",
+      "type": "INT",
+      "unit": "kPa",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iPressBPRefFromBCU",
+      "type": "INT",
+      "unit": "kPa",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iPressBPReftoBCU",
+      "type": "INT",
+      "unit": "kPa",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iPressDBS",
+      "type": "INT",
+      "unit": "kPa",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.iRefTraction",
+      "type": "INT",
+      "unit": "kN",
+      "min": -180,
+      "max": "180"
+    },
+    {
+      "dataPoint": "DP_F.iTBCPos",
+      "type": "INT",
+      "unit": "%",
+      "min": -100,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.iTempApp",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCabCC",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCabPH",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCeilCompA",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCeilCompB",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCeilSectBH4",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempCoolVent",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTemperatureInside",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTemperatureOutside",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempKitch",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonA",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP3",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP3B5",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP3B76",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP4B40",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP4B48",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempSalonP5",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempTMCompB45",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempTMCompB6",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempToiletHaCap",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempTrashB54",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempTrashCompB48",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempWatVacU22",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempWatVacU26",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempWcA",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempWcB",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTempWcCrew",
+      "type": "INT",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.iTiltOilTemperature",
+      "type": "INT",
+      "unit": "°C",
+      "min": -30,
+      "max": "70"
+    },
+    {
+      "dataPoint": "DP_F.iTraction",
+      "type": "INT",
+      "unit": "kN",
+      "min": -180,
+      "max": "180"
+    },
+    {
+      "dataPoint": "DP_F.iTractionDCU1",
+      "type": "INT",
+      "unit": "kN",
+      "min": -180,
+      "max": "180"
+    },
+    {
+      "dataPoint": "DP_F.iTractionDCU2",
+      "type": "INT",
+      "unit": "kN",
+      "min": -180,
+      "max": "180"
+    },
+    {
+      "dataPoint": "DP_F.iTractionPowerDCU1",
+      "type": "INT",
+      "unit": "kW",
+      "min": -2500,
+      "max": "2500"
+    },
+    {
+      "dataPoint": "DP_F.iTractionPowerDCU2",
+      "type": "INT",
+      "unit": "kW",
+      "min": -2500,
+      "max": "2500"
+    },
+    {
+      "dataPoint": "DP_F.iTrafoTemp",
+      "type": "INT",
+      "unit": "°C",
+      "min": -30,
+      "max": "120"
+    },
+    {
+      "dataPoint": "DP_F.iVPrim",
+      "type": "INT",
+      "unit": "kV",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.rAngLatAcc1Delayed",
+      "type": "REAL",
+      "unit": "s",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rAngLatAcc2Delayed",
+      "type": "REAL",
+      "unit": "s",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rAngLatMeanAccNL",
+      "type": "REAL",
+      "unit": "°",
+      "min": -10,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rBatteryInputV",
+      "type": "REAL",
+      "unit": "V",
+      "min": 200,
+      "max": "260"
+    },
+    {
+      "dataPoint": "DP_F.rBatteryOutputA",
+      "type": "REAL",
+      "unit": "A",
+      "min": -120,
+      "max": "70"
+    },
+    {
+      "dataPoint": "DP_F.rBatteryOutputChargerA",
+      "type": "REAL",
+      "unit": "A",
+      "min": 0,
+      "max": "120"
+    },
+    {
+      "dataPoint": "DP_F.rBatteryOutputV",
+      "type": "REAL",
+      "unit": "V",
+      "min": 0,
+      "max": "130"
+    },
+    {
+      "dataPoint": "DP_F.rBatteryTemp",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "70"
+    },
+    {
+      "dataPoint": "DP_F.rBrakePipePressureCorr",
+      "type": "REAL",
+      "unit": "bar",
+      "min": -2,
+      "max": "2"
+    },
+    {
+      "dataPoint": "DP_F.rCompressorAirTemp",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "70"
+    },
+    {
+      "dataPoint": "DP_F.rCompressorDewPointTemp",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "40"
+    },
+    {
+      "dataPoint": "DP_F.rCompressorMUTemp",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "120"
+    },
+    {
+      "dataPoint": "DP_F.rCrossAcc1",
+      "type": "REAL",
+      "unit": "m/s2",
+      "min": -1,
+      "max": "1"
+    },
+    {
+      "dataPoint": "DP_F.rCrossAcc2",
+      "type": "REAL",
+      "unit": "m/s2",
+      "min": -1,
+      "max": "1"
+    },
+    {
+      "dataPoint": "DP_F.rCrossAcc3",
+      "type": "REAL",
+      "unit": "m/s2",
+      "min": -1,
+      "max": "1"
+    },
+    {
+      "dataPoint": "DP_F.rCrossAcc4",
+      "type": "REAL",
+      "unit": "m/s2",
+      "min": -1,
+      "max": "1"
+    },
+    {
+      "dataPoint": "DP_F.rDuctAirTemperature",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rEDRef",
+      "type": "REAL",
+      "unit": "kN",
+      "min": 0,
+      "max": "20000"
+    },
+    {
+      "dataPoint": "DP_F.rFEDMax",
+      "type": "REAL",
+      "unit": "kN",
+      "min": 0,
+      "max": "20000"
+    },
+    {
+      "dataPoint": "DP_F.rPilotPressure",
+      "type": "REAL",
+      "unit": "bar",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rTempCompMU",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "120"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureDriversCab",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureInsideEnd1",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureInsideEnd2",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureInsidePassenger",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureMotor1",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureMotor2",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureMotor3",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureMotor4",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -30,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureOutside",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureOutsideTrain",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureRecicrulatedAirA",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureRecicrulatedAirB",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSaloonA",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSaloonB",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSaloonM",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSetpoint",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSetpointCab",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureSupplyAir",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureToiletA",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureToiletB",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureVestibuleA",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTemperatureVestibuleB",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.rTiltAngleBogie1",
+      "type": "REAL",
+      "unit": "°",
+      "min": -10,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rTiltAngleBogie2",
+      "type": "REAL",
+      "unit": "°",
+      "min": -10,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rTiltTestAngleMax",
+      "type": "REAL",
+      "unit": "°",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.rUnder_temp",
+      "type": "REAL",
+      "unit": "°C",
+      "min": -20,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.udCounterHoursBattery",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxCompAutoStart",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxCompDc",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "20000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxCompManStart",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxContA1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxContA2",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxCouplerContC1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterAuxSupplyCont",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterCoupling",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoor1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoor2",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoor3",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoor4",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorInternal1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorInternal2",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorInternal3",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorInternal4",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorInternal5",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorKitchen1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDoorKitchen2",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDriverEnergyRecovery",
+      "type": "UDINT",
+      "unit": "MWh",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterDriverEnergyTraction",
+      "type": "UDINT",
+      "unit": "MWh",
+      "min": 0,
+      "max": "10"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursAuxCompressor",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursCabCoolingCompr",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursCirculationPump",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursCoolingVent",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "500000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursHvacCoolingCompr",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursHydrCoolingVent",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursMainCompFilter",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "50000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursMainCompressor",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursOilPump1",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursOilPump2",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursOilPumpTower1",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursOilPumpTower2",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursServoPump",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursServoValve",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursTcms",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "500000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursTractionVent1",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursTractionVent2",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursWaterPumpTower1",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterHoursWaterPumpTower2",
+      "type": "UDINT",
+      "unit": "h",
+      "min": 0,
+      "max": "200000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterMainCompDc",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "20000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterMainCompStart",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterMilage",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "10000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterMilagePantoA",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterMilagePantoB",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterPantoA",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterPantoB",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyAux",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "20000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyBrake",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyHeating",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "20000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyParking",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "20000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyRecovery",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "20000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergySavingLong",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergySavingShrt",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyTraction",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "11000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTotalEnergyUsed",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "200000000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTrainHeatingCont16Hz",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTrainHeatingCont50Hz",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterTrainHeatingContExt",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterVCB",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterWheelChair1",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiCounterWheelChair2",
+      "type": "UDINT",
+      "unit": "st",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterMilage",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "2000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterMilagePantoA",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "2000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterMilagePantoB",
+      "type": "UDINT",
+      "unit": "km",
+      "min": 0,
+      "max": "2000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergyAux",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergyHeating",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergyParking",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergyRecovery",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergySavingLong",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergySavingShrt",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.udiDCounterTotalEnergyUsed",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyAux",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyBrake",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyHeating",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyParking",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyRecovery",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergySavingLong",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergySavingShort",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyTraction",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.udiMCounterEnergyUsed",
+      "type": "UDINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "1000000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxCompAutoStart",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxCompDc",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "500"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxCompManStart",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxContA1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxContA2",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxCouplerContC1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterAuxSupplyCont",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterCoupling",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "20"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoor1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoor2",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoor3",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoor4",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorInternal1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorInternal2",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorInternal3",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorInternal4",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorInternal5",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorKitchen1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterDoorKitchen2",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterMainCompDc",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "500"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterMainCompStart",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "1000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterPantoA",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterPantoB",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "50"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterTotalEnergyBrake",
+      "type": "UINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterTotalEnergyTraction",
+      "type": "UINT",
+      "unit": "kWh",
+      "min": 0,
+      "max": "10000"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterTrainHeatingCont16Hz",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterTrainHeatingCont50Hz",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterTrainHeatingContExt",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "20"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterVCB",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "100"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterWheelChair1",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiDCounterWheelChair2",
+      "type": "UINT",
+      "unit": "st",
+      "min": 0,
+      "max": "200"
+    },
+    {
+      "dataPoint": "DP_F.uiTimeDriverAidButton",
+      "type": "UINT",
+      "unit": "s",
+      "min": 0,
+      "max": "20"
+    },
+    {
+      "dataPoint": "DP_F.usAvgClosingCurrDoor1",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgClosingCurrDoor2",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgClosingCurrDoor3",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgClosingCurrDoor4",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgClosingCurrDoor5",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgOpeningCurrDoor1",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgOpeningCurrDoor2",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgOpeningCurrDoor3",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgOpeningCurrDoor4",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    },
+    {
+      "dataPoint": "DP_F.usAvgOpeningCurrDoor5",
+      "type": "USINT",
+      "unit": "A",
+      "min": 0,
+      "max": "30"
+    }
+   ]
