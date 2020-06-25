@@ -4,31 +4,33 @@ block content
             .panel.panel-default
                 .panel-heading Trip Selector
                 .panel-body        
-                    form(action='/start', method='post', id='travel')
+                    form(action='/start', method='post', id='trip')
                       fieldset
-                        .radio
-                          label
-                            input#1(type='radio', name='trip', value='0')
-                            | STO - GBG
-                        .radio
-                          label
-                            input#2(type='radio', name='trip', value='1')
-                            | STO - UPP
-                        .radio
-                          label
-                            input#3(type='radio', name='trip', value='2')
-                            | STO-OST   
-                        .radio
-                          label
-                            input#4(type='radio', name='trip', value='3')
-                            | LUL-KIR
-                        .radio
-                          label
-                            input#5(type='radio', name='trip', value='4')
-                            | VAX-GBG
-                        .radio
-                          label
-                            input#6(type='radio', name='trip', value='5')
-                            | KNA-MLM
-                        br                                                   
-                        button.btn.btn-space.btn-default(type='submit', form='travel')  start »
+                        label ROUTE
+                        br  
+                        select.browser-default.custom-select#route(name='route')
+                          option(value='0') STO - GBG  
+                          option(value='1') STO - UPP
+                          option(value='2') STO - OST
+                          option(value='3') LUL - KIR
+                          option(value='4') VAX - GBG     
+                          option(value='5') KNA - MLM  
+                        br
+                        br
+                        label TRAIN
+                        br 
+                        select.browser-default.custom-select#train_nr(name='train_nr')
+                          option(value='X2008') X2008  
+                          option(value='U2510') U2510
+                          option(value='U2842') U2842
+                          option(value='U2611') U2611
+                          option(value='U2840') U2840     
+                          option(value='U2808') U2808  
+                        br
+                        br  
+                        select.browser-default.custom-select#action(name='action')
+                          option(value='start') start trip
+                          option(value='stop') stop trip
+                        br   
+                        br                                        
+                        button.btn.btn-danger(type='submit', form='trip')  submit »

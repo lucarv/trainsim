@@ -1,3 +1,8 @@
 [
-    "HostName=devhub-luca.azure-devices.net;DeviceId=SJ_TRAIN_SIM_00000000;SharedAccessKey=iTcCfaz9F8YJST+wA5aK8e3T/C4bocfdndQEIaICR2I="
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=X2USim001;SharedAccessKey=ZDlYmBS38yzW2w10R7VImmau+RyB4Aa9tK7tZwtjF20=",
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=x2usim002;SharedAccessKey=4U0MWBOCvDLZAuQXJfjb+No7tzb18BrL9BU2oRYWQsI=",
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=x2usim003;SharedAccessKey=EQ6T3sUpvZeLBpboZQ6WvgtT9np/WONBHLX268BgT+I=",
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=x2usim004;SharedAccessKey=i9b7rY3S1E/DuFHj0WmRSUxT8R/NfAagW683slQ7FYc=",
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=x2usim005;SharedAccessKey=7usROubghhvlPc+U6/FtnChTmufGaGgNkTWMtkuGOPA=",
+    "HostName=SJLandingZone.azure-devices.net;DeviceId=x2usim006;SharedAccessKey=gUUX2JE1CJjnYytBNkmBYMTOWMxZfv7ZF3aFBfPJaiw="
 ]
