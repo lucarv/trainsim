@@ -104,7 +104,8 @@ router.post('/start', function (req, res, next) {
   trainNumber = trains.indexOf(req.body.train_nr)
   if (req.body.action == 'start') {
     if (currentPoints[trainNumber] === 0) {
-      teles.push(setInterval(telemetry, interval, trainNumber));
+      let timer = setInterval(telemetry, interval, trainNumber);
+      teles.push({"train": trainNumber, "timer": timer});
       console.log(`\n### Train [${trains[trainNumber]}] will depart\n`);
       res.render('index', {
         title: 'Trip Selector'
@@ -117,7 +118,12 @@ router.post('/start', function (req, res, next) {
   } else {
     console.log('\n### Stopping trip for train: ' + trains[trainNumber]);
     currentPoints[trainNumber] = 0;
-    clearInterval(teles[trainNumber])
+    for(var i = 0; i < teles.length; i++) {
+      if (teles[i].train == trainNumber) {
+        clearTimeout(teles[i].timer)
+        teles.splice(i,1);
+      }
+    }
     res.render('index', {
       title: 'Trip Selector'
     });
